@@ -6,7 +6,6 @@ const idElem = (id) => document.getElementById(id);
 
 idElem('counter').addEventListener('click', () => {
   const counter = createCounter('content');
-  alert('counter..');
 
   idElem('dec').addEventListener('click', (e) => {
     counter.decrement();
