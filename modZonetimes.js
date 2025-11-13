@@ -1,4 +1,4 @@
-import { DateTime } from 'luxon';
+import { DateTime } from "https://cdn.jsdelivr.net/npm/luxon@3.4.0/build/es6/luxon.min.js";
 
 export const createZonetimes = (containerName) => {
   let container = document.getElementById(containerName);
